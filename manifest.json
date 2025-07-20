@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "2025 GRE Verbal Reasoning Defeater",
+  "version": "1.0",
+  "description": "Master the 2025 GRE vocabulary with spaced repetition learning",
+  "permissions": ["storage"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+} 

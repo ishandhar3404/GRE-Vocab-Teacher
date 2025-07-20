@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>2025 GRE Verbal Reasoning Defeater</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Header with stats -->
+    <div class="header">
+      <div class="stats">
+        <div class="progress-bar">
+          <div class="progress-fill" id="progressFill"></div>
+        </div>
+        <div class="progress-text" id="progressText">0/303</div>
+        <div class="accuracy">
+          <span>Session: <span id="sessionAccuracy">0%</span></span>
+        </div>
+        <div class="time-spent" id="timeSpent">Time: 0m</div>
+      </div>
+      <button class="reset-btn" id="resetBtn">Reset</button>
+      <button class="save-btn" id="saveBtn">Save Progress</button>
+    </div>
+
+    <!-- Tab navigation -->
+    <div class="tabs">
+      <button class="tab-btn active" data-tab="study">Study</button>
+      <button class="tab-btn" data-tab="flashcards">Flashcards</button>
+    </div>
+
+    <!-- Study tab -->
+    <div class="tab-content active" id="studyTab">
+      <div class="study-content">
+        <button class="session-btn" id="startSessionBtn">Start Session</button>
+        <div class="word-display" id="wordDisplay">
+          <div class="word" id="currentWord"></div>
+          <div class="definition" id="currentDefinition"></div>
+        </div>
+        
+        <div class="quiz-options" id="quizOptions" style="display: none;">
+          <button class="option-btn" data-option="0"></button>
+          <button class="option-btn" data-option="1"></button>
+          <button class="option-btn" data-option="2"></button>
+          <button class="option-btn" data-option="3"></button>
+        </div>
+        
+        <div class="result" id="result" style="display: none;">
+          <div class="result-icon" id="resultIcon"></div>
+          <div class="result-text" id="resultText"></div>
+        </div>
+        
+        <button class="next-btn" id="nextBtn" style="display: none;">Next</button>
+      </div>
+    </div>
+
+    <!-- Flashcards tab -->
+    <div class="tab-content" id="flashcardsTab">
+      <div class="flashcard-container">
+        <div class="flashcard" id="flashcard">
+          <div class="flashcard-status" id="flashcardStatus"></div>
+          <div class="flashcard-content">
+            <div class="flashcard-front" id="flashcardFront"></div>
+            <div class="flashcard-back" id="flashcardBack" style="display: none;"></div>
+          </div>
+        </div>
+        <div class="flashcard-nav">
+          <button class="nav-btn" id="prevCard">Previous</button>
+          <span class="card-counter" id="cardCounter">1/1</span>
+          <button class="nav-btn" id="nextCard">Next</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Reset confirmation modal -->
+  <div class="modal" id="resetModal" style="display: none;">
+    <div class="modal-content">
+      <h3>Reset Progress</h3>
+      <p>Are you sure you want to reset? All saved progress will be lost.</p>
+      <div class="modal-buttons">
+        <button class="cancel-btn" id="cancelReset">Cancel</button>
+        <button class="confirm-btn" id="confirmReset">Reset</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="words.js"></script>
+  <script src="app.js"></script>
+</body>
+</html> 

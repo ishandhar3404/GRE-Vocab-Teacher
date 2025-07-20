@@ -2,32 +2,32 @@
 
 A Chrome extension designed to help you master GRE vocabulary through an intelligent spaced repetition learning system. This extension provides a comprehensive study experience with flashcards, quizzes, and progress tracking to ensure you're well-prepared for the GRE Verbal Reasoning section.
 
-## 🎯 Features
+## Features
 
-### 📚 Study Modes
+### Study Modes
 - **Flashcard Mode**: Flip through vocabulary cards to learn definitions
 - **Quiz Mode**: Test your knowledge with multiple-choice questions
 - **Study Sessions**: Structured learning sessions combining flashcards and quizzes
 
-### 📊 Progress Tracking
+### Progress Tracking
 - Real-time progress monitoring with visual progress bars
 - Session accuracy tracking
 - Time spent studying
 - Persistent progress storage across browser sessions
 
-### 🧠 Intelligent Learning
+### Intelligent Learning
 - Spaced repetition algorithm for optimal retention
 - Prioritizes words you struggle with
 - Randomized word presentation to prevent memorization patterns
 - Session-based learning with review cycles
 
-### 🎨 User Experience
+### User Experience
 - Clean, modern interface
 - Keyboard shortcuts for efficient navigation
 - Tab-based navigation between study modes
 - Responsive design that works on different screen sizes
 
-## 🚀 Installation
+## Installation
 
 ### For Development
 1. Clone this repository:
@@ -45,7 +45,7 @@ A Chrome extension designed to help you master GRE vocabulary through an intelli
 1. Download the extension files
 2. Follow the same loading process as above
 
-## 📖 Usage
+## Usage
 
 ### Getting Started
 1. Click the extension icon in your Chrome toolbar
@@ -67,7 +67,7 @@ A Chrome extension designed to help you master GRE vocabulary through an intelli
 - Reset progress if needed (use with caution)
 - Monitor your session accuracy and time spent studying
 
-## 🛠️ Technical Details
+## Technical Details
 
 ### Architecture
 - **Manifest Version**: 3 (latest Chrome extension standard)
@@ -111,7 +111,7 @@ The extension includes a comprehensive list of GRE vocabulary words with:
 - The extension uses CSS Grid and Flexbox for responsive design
 - Color scheme and animations can be easily adjusted
 
-## 🔧 Development
+## Development
 
 ### Prerequisites
 - Chrome browser
@@ -127,7 +127,7 @@ The extension includes a comprehensive list of GRE vocabulary words with:
 - Check the console for any JavaScript errors
 - Monitor localStorage for progress data
 
-## 📈 Future Enhancements
+## Future Enhancements
 
 - [ ] Export progress data
 - [ ] Additional study modes (fill-in-the-blank, sentence completion)
@@ -136,7 +136,7 @@ The extension includes a comprehensive list of GRE vocabulary words with:
 - [ ] Custom word lists
 - [ ] Study reminders and notifications
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
@@ -147,22 +147,17 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Test thoroughly
 5. Submit a pull request
 
-## 📄 License
+## License
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - GRE vocabulary data compiled from various educational resources
 - Inspired by spaced repetition learning principles
 - Built with modern web technologies for optimal performance
 
-## 📞 Support
 
-If you encounter any issues or have suggestions for improvements, please:
-1. Check the existing issues on GitHub
-2. Create a new issue with detailed information
-3. Include steps to reproduce any bugs
 
 ---
 

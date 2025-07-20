@@ -91,7 +91,7 @@ A Chrome extension designed to help you master GRE vocabulary through an intelli
 - **Progress Tracking**: Local storage management
 - **UI Management**: Tab switching and modal handling
 
-## 📝 Vocabulary Data
+## Vocabulary Data
 
 The extension includes a comprehensive list of GRE vocabulary words with:
 - Word definitions
@@ -99,7 +99,7 @@ The extension includes a comprehensive list of GRE vocabulary words with:
 - Example usage (where available)
 - Randomized presentation to prevent pattern recognition
 
-## 🎨 Customization
+## Customization
 
 ### Adding New Words
 1. Edit `words_randomized.txt` to add new vocabulary
